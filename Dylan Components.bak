@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_Dylan_IC:Molex_0473461001"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
