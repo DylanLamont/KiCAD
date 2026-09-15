@@ -1528,6 +1528,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Dylan Components:ASMD-CWG7-NX7J2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ASMD-CWG7-NX7J2"
+				(at 0.254 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LED WARM WHITE 3014 SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ASMD-CWG7-NX7J2_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ASMD-CWG7-NX7J2_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Dylan Components:BQ21040DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2376,7 +2537,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_PMOS_DGS"
+		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2397,7 +2558,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_PMOS_DGS"
+			(property "Value" "Q_PMOS_GSD"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2430,7 +2591,7 @@
 					)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, drain/gate/source"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2452,7 +2613,7 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_0_1"
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2619,11 +2780,11 @@
 					)
 				)
 			)
-			(symbol "Q_PMOS_DGS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2638,10 +2799,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2657,9 +2818,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3232,7 +3393,7 @@
 	)
 	(text_box "6.4S/µF\n"
 		(exclude_from_sim no)
-		(at 224.79 72.39 0)
+		(at 199.39 85.09 0)
 		(size 10.16 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3357,6 +3518,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 137.16) (xy 161.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0717dd6b-dded-4bdd-91a1-dd51a2322d4f")
+	)
+	(wire
+		(pts
 			(xy 80.01 127) (xy 83.82 127)
 		)
 		(stroke
@@ -3417,6 +3588,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 132.08) (xy 179.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158bd17c-e540-4ca6-ad65-b4512b666faf")
+	)
+	(wire
+		(pts
 			(xy 99.06 123.19) (xy 119.38 123.19)
 		)
 		(stroke
@@ -3434,6 +3615,16 @@
 			(type default)
 		)
 		(uuid "2279cd04-4f8c-4944-a8fe-ffa6d1491408")
+	)
+	(wire
+		(pts
+			(xy 148.59 127) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f17420-bb02-4073-9f5f-f91ab99eae05")
 	)
 	(wire
 		(pts
@@ -3467,6 +3658,26 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 137.16) (xy 161.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342cf6c8-211c-40ed-b8ca-b128ff91d070")
+	)
+	(wire
+		(pts
+			(xy 231.14 135.89) (xy 231.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b3097a-7595-4ab7-9ffb-5796f31fb7ea")
+	)
+	(wire
+		(pts
 			(xy 217.17 55.88) (xy 217.17 52.07)
 		)
 		(stroke
@@ -3477,6 +3688,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 119.38) (xy 205.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41167a51-dc9b-4007-9a30-3f2dd89ccb38")
+	)
+	(wire
+		(pts
 			(xy 69.85 111.76) (xy 69.85 115.57)
 		)
 		(stroke
@@ -3484,6 +3705,16 @@
 			(type default)
 		)
 		(uuid "45407ba4-aa0d-48a3-8df2-27c53b4b6dff")
+	)
+	(wire
+		(pts
+			(xy 223.52 128.27) (xy 223.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e22a4be-4c2d-456a-81d6-8bb99eb13fa6")
 	)
 	(wire
 		(pts
@@ -3504,6 +3735,16 @@
 			(type default)
 		)
 		(uuid "50238ebe-99fa-4f8d-b1aa-58c493e4b8b5")
+	)
+	(wire
+		(pts
+			(xy 254 125.73) (xy 248.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502f3edc-1031-4987-bb5b-d7b1f7280b65")
 	)
 	(wire
 		(pts
@@ -3577,6 +3818,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 130.81) (xy 248.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba9ef43-f344-4b10-8c7c-37e87588f225")
+	)
+	(wire
+		(pts
 			(xy 25.4 68.58) (xy 25.4 71.12)
 		)
 		(stroke
@@ -3594,6 +3845,26 @@
 			(type default)
 		)
 		(uuid "700b67cc-4252-4a8a-bf02-baab1878061a")
+	)
+	(wire
+		(pts
+			(xy 199.39 119.38) (xy 199.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7551ea6a-053f-4ecc-b769-befa0ecb1391")
+	)
+	(wire
+		(pts
+			(xy 220.98 125.73) (xy 231.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7594268f-f144-464c-b5b5-ae3c0af80c13")
 	)
 	(wire
 		(pts
@@ -3647,6 +3918,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 135.89) (xy 231.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8763f27a-dbc2-493e-99ae-a987d35ad7e7")
+	)
+	(wire
+		(pts
 			(xy 93.98 53.34) (xy 107.95 53.34)
 		)
 		(stroke
@@ -3697,6 +3978,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 129.54) (xy 153.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b2a598-fb4f-41f3-8eff-b60d1f17aeed")
+	)
+	(wire
+		(pts
+			(xy 184.15 119.38) (xy 184.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95d0598e-9587-4f8a-b25a-fe07c3376f4d")
+	)
+	(wire
+		(pts
 			(xy 82.55 68.58) (xy 93.98 68.58)
 		)
 		(stroke
@@ -3717,6 +4018,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 129.54) (xy 153.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b20b34-5061-46a0-8420-88d8e5a6b60e")
+	)
+	(wire
+		(pts
 			(xy 107.95 60.96) (xy 107.95 66.04)
 		)
 		(stroke
@@ -3724,6 +4035,36 @@
 			(type default)
 		)
 		(uuid "a6adb973-ec9b-4024-8644-f1fca7d74229")
+	)
+	(wire
+		(pts
+			(xy 254 118.11) (xy 254 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c91fda-e76e-474a-a42a-69eb39aa36a5")
+	)
+	(wire
+		(pts
+			(xy 191.77 119.38) (xy 191.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9762c3-c96f-4c7a-96a8-878d15934941")
+	)
+	(wire
+		(pts
+			(xy 275.59 118.11) (xy 275.59 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0498faf-d0a8-454e-a246-ff86791896bc")
 	)
 	(wire
 		(pts
@@ -3827,6 +4168,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 129.54) (xy 179.07 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d412eca5-ae6a-4f6b-ad42-2f7e6688ecef")
+	)
+	(wire
+		(pts
 			(xy 207.01 36.83) (xy 212.09 36.83)
 		)
 		(stroke
@@ -3834,6 +4185,46 @@
 			(type default)
 		)
 		(uuid "d55597b6-14d6-4675-868c-b699a7c06d0e")
+	)
+	(wire
+		(pts
+			(xy 269.24 118.11) (xy 269.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd497bd-ba56-43bb-bd75-85ccab4a1878")
+	)
+	(wire
+		(pts
+			(xy 184.15 127) (xy 179.07 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1afedc3-5d60-4390-b8a3-860a97b612de")
+	)
+	(wire
+		(pts
+			(xy 261.62 128.27) (xy 248.92 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e201f40f-4bb6-4668-b7c6-8f78234f9c51")
+	)
+	(wire
+		(pts
+			(xy 261.62 118.11) (xy 261.62 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd3ab6c-2d8f-4add-8d24-f869f49df5cd")
 	)
 	(wire
 		(pts
@@ -3857,6 +4248,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 128.27) (xy 223.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f5a2da-1c14-4215-bc32-fb13423b5c7b")
+	)
+	(wire
+		(pts
 			(xy 26.67 104.14) (xy 33.02 104.14)
 		)
 		(stroke
@@ -3876,6 +4277,16 @@
 		(uuid "fe6d1bcf-bb67-4ac4-a9de-8332e89f57da")
 	)
 	(label "PWM_OUT"
+		(at 148.59 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "628589c8-d204-44fa-bfcb-d6f0da9da806")
+	)
+	(label "PWM_OUT"
 		(at 111.76 119.38 180)
 		(effects
 			(font
@@ -3884,6 +4295,16 @@
 			(justify right bottom)
 		)
 		(uuid "76b95936-3695-45e7-86a3-64af6a0a92fd")
+	)
+	(label "PWM_OUT"
+		(at 220.98 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a67f4578-f2c8-4acd-b3b0-232eaf1cab28")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3986,7 +4407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.33µF"
 			(at 215.9 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4047,7 +4468,7 @@
 	)
 	(symbol
 		(lib_id "Dylan Components:AP2502KTR-G1")
-		(at 189.23 96.52 0)
+		(at 171.45 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4058,7 +4479,7 @@
 		(fields_autoplaced yes)
 		(uuid "077c9c73-1d6f-4b49-9003-7eb62d6d7ea1")
 		(property "Reference" "U4"
-			(at 187.96 93.98 0)
+			(at 170.18 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4068,7 +4489,7 @@
 			)
 		)
 		(property "Value" "AP2502KTR-G1"
-			(at 187.96 96.52 0)
+			(at 170.18 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4078,7 +4499,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 189.23 96.52 0)
+			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4089,7 +4510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 96.52 0)
+			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4100,7 +4521,7 @@
 			)
 		)
 		(property "Description" "LED Driver IC 4 Output Linear PWM Dimming 20mA SOT-23-6"
-			(at 189.23 96.52 0)
+			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,6 +4715,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(at 217.17 39.37 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "154012bf-d8c2-468a-ba10-8633db66b7fb")
+		(property "Reference" "Q2"
+			(at 217.17 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q_PMOS_GSD"
+			(at 217.17 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 219.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(at 217.17 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "BSS84PH6327XTSA2"
+			(at 217.17 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Infineon Technologies"
+			(at 217.17 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b707fcfe-0921-4486-bc5a-849e63bcf8f7")
+		)
+		(pin "3"
+			(uuid "8bf253ed-30e8-4118-9bac-85ff4bbf9ab5")
+		)
+		(pin "1"
+			(uuid "1656e89c-1819-42a2-a0e0-6bd8147b3c09")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 119.38 130.81 0)
 		(unit 1)
@@ -4450,6 +4976,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Dylan Components:ASMD-CWG7-NX7J2")
+		(at 184.15 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b518f4e-a520-458c-9d5b-3e170c0ee296")
+		(property "Reference" "D3"
+			(at 181.102 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ASMD-CWG7-NX7J2"
+			(at 181.356 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+			(at 184.15 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED WARM WHITE 3014 SMD"
+			(at 184.15 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51b3a720-3756-4063-91c2-f9ac535ab4b4")
+		)
+		(pin "2"
+			(uuid "9206967e-9049-458f-976e-09a9ba641ae2")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 71.12 0)
 		(unit 1)
@@ -4522,6 +5130,166 @@
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 275.59 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34edd5f6-9b12-4243-87c7-d9ae8855d4b2")
+		(property "Reference" "#PWR034"
+			(at 275.59 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 275.59 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 275.59 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b4e16b5-e641-471d-995c-7471b709f32c")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dylan Components:ASMD-CWG7-NX7J2")
+		(at 254 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "356bac2b-eb77-47f9-85bf-ce0028235fa1")
+		(property "Reference" "D7"
+			(at 250.952 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ASMD-CWG7-NX7J2"
+			(at 251.206 102.616 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED WARM WHITE 3014 SMD"
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5bfaaf6-f064-4cee-aa9c-a12d41d8a3b6")
+		)
+		(pin "2"
+			(uuid "b2bc94d9-d84d-4b90-ae1c-ac0dda16247c")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4870,6 +5638,162 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 153.67 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d00d808-6057-4bcc-94f4-5eec7ab5f3b7")
+		(property "Reference" "#PWR015"
+			(at 153.67 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83644e8b-c420-4369-b7df-92cc0f9ce049")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 191.77 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4de283ba-2056-41cc-a6dc-b2a609860702")
+		(property "Reference" "#PWR028"
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 191.77 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e35cea1c-10f0-4164-bef0-f83dd1689eca")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 179.07 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -5103,6 +6027,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 261.62 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ab20c65-1e6e-421f-aea1-83bb749d0fcb")
+		(property "Reference" "#PWR032"
+			(at 261.62 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 261.62 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 261.62 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67100f29-6a57-4991-94cb-cb94a10be7ec")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d9adb33-0e73-4b74-90a4-806e86312054")
+		(property "Reference" "#PWR026"
+			(at 223.52 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c3506dd4-7640-48f7-bfe1-cf12ff816a8f")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 68.58 0)
 		(unit 1)
@@ -5181,8 +6261,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_DGS")
-		(at 217.17 39.37 90)
+		(lib_id "Dylan Components:ASMD-CWG7-NX7J2")
+		(at 275.59 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5190,30 +6270,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f8b05d5-d261-45fe-93cd-74f6b21e97b0")
-		(property "Reference" "Q1"
-			(at 217.17 30.48 90)
+		(uuid "5fc5fcfc-2ca7-477b-b789-74783d3e8da0")
+		(property "Reference" "D10"
+			(at 272.796 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Q_PMOS_DGS"
-			(at 217.17 33.02 90)
+		(property "Value" "ASMD-CWG7-NX7J2"
+			(at 280.162 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 214.63 34.29 0)
+		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+			(at 275.59 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5224,7 +6305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 39.37 0)
+			(at 275.59 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5234,8 +6315,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/gate/source"
-			(at 217.17 39.37 0)
+		(property "Description" "LED WARM WHITE 3014 SMD"
+			(at 275.59 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,20 +6325,99 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "382a1c1d-5687-4d04-8aa1-83bbdb0c7342")
 		)
 		(pin "1"
-			(uuid "c93bd1b6-e9bf-4bb2-b630-ccb19631c64b")
+			(uuid "28c03d5f-8cef-4432-93a3-d4199d3aaa2f")
 		)
 		(pin "2"
-			(uuid "b099694f-f382-4bc9-9b48-58b71f505a4c")
+			(uuid "34c4e04f-abe7-44c7-afae-9fd27bfbb85c")
 		)
 		(instances
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
-					(reference "Q1")
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dylan Components:ASMD-CWG7-NX7J2")
+		(at 191.77 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6bbbb54d-88f0-43f4-b5ac-8333a2b55e0a")
+		(property "Reference" "D4"
+			(at 188.468 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ASMD-CWG7-NX7J2"
+			(at 188.722 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED WARM WHITE 3014 SMD"
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "764cbf81-2b69-4f69-9e5d-ddc0dc60e145")
+		)
+		(pin "2"
+			(uuid "2b85d808-3626-4b53-b126-d11bcea92528")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5849,6 +7009,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Dylan Components:ASMD-CWG7-NX7J2")
+		(at 199.39 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "917e9901-f7f7-44ba-b98e-db1312ed26ea")
+		(property "Reference" "D5"
+			(at 196.342 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ASMD-CWG7-NX7J2"
+			(at 196.596 103.632 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+			(at 199.39 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED WARM WHITE 3014 SMD"
+			(at 199.39 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa06bc7c-718f-48c0-a50f-84f44f12c344")
+		)
+		(pin "2"
+			(uuid "af4ffc21-2564-460a-8c12-df66e530f93f")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 107.95 66.04 0)
 		(unit 1)
@@ -5949,7 +7191,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 182.88 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6018,7 +7260,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b6a4c96-cc43-4e32-8d9c-b0a180d46070")
 		(property "Reference" "C2"
 			(at 64.77 106.6799 0)
@@ -6031,8 +7272,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 64.77 109.2199 0)
+		(property "Value" "10µF"
+			(at 62.23 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6113,7 +7354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1.5kΩ"
 			(at 96.52 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6195,7 +7436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 82.55 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6432,7 +7673,7 @@
 	)
 	(symbol
 		(lib_id "Dylan Components:AP2502KTR-G1")
-		(at 189.23 128.27 0)
+		(at 241.3 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6443,7 +7684,7 @@
 		(fields_autoplaced yes)
 		(uuid "a81bac72-bb4c-49e4-86c9-9fed8d349982")
 		(property "Reference" "U5"
-			(at 187.96 125.73 0)
+			(at 240.03 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6453,7 +7694,7 @@
 			)
 		)
 		(property "Value" "AP2502KTR-G1"
-			(at 187.96 128.27 0)
+			(at 240.03 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6463,7 +7704,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 189.23 128.27 0)
+			(at 241.3 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6474,7 +7715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 128.27 0)
+			(at 241.3 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6485,7 +7726,7 @@
 			)
 		)
 		(property "Description" "LED Driver IC 4 Output Linear PWM Dimming 20mA SOT-23-6"
-			(at 189.23 128.27 0)
+			(at 241.3 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6517,6 +7758,170 @@
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dylan Components:ASMD-CWG7-NX7J2")
+		(at 261.62 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a872c56b-c3c7-4790-8246-012e5f537769")
+		(property "Reference" "D8"
+			(at 258.318 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ASMD-CWG7-NX7J2"
+			(at 258.572 102.616 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+			(at 261.62 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED WARM WHITE 3014 SMD"
+			(at 261.62 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34c6c106-d5c6-46a8-b112-7168f6fa984c")
+		)
+		(pin "2"
+			(uuid "3b1343fd-e411-4747-bc7b-5a2f5b90a406")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 228.6 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af72631a-fa90-461c-a13f-c5444e66b705")
+		(property "Reference" "R7"
+			(at 231.14 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 231.14 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 229.616 44.704 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 228.6 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c2f2246-9da3-41a0-8d73-5ff794f5c805")
+		)
+		(pin "2"
+			(uuid "f4871947-ed07-48f5-af94-cc323aa28ac2")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6679,6 +8084,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 227.33 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc0b615f-7f88-48bf-8cce-71f5879942d2")
+		(property "Reference" "R8"
+			(at 229.87 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 229.87 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 228.346 70.104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 227.33 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "236af7e5-ed4a-46ed-98de-10a358529214")
+		)
+		(pin "2"
+			(uuid "bcde7bef-0a5a-408b-a615-af823a58a13c")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 198.12 74.93 0)
 		(unit 1)
@@ -6701,7 +8188,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.33µF"
 			(at 201.93 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +8348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 72.39 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6930,7 +8417,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce4c5ae4-1f57-4f28-bc2d-ec717d589874")
 		(property "Reference" "C1"
 			(at 30.48 106.6799 0)
@@ -6943,8 +8429,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 30.48 109.2199 0)
+		(property "Value" "10µF"
+			(at 17.78 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7025,7 +8511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1kΩ"
 			(at 53.34 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7079,6 +8565,84 @@
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 184.15 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db521e1d-b238-4a43-8639-a413ce8e8c2a")
+		(property "Reference" "#PWR027"
+			(at 184.15 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 184.15 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb7dee38-2cf2-4161-8d79-f8169ab70865")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7167,6 +8731,243 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 254 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df357376-d767-4c48-bc1b-684f40720765")
+		(property "Reference" "#PWR031"
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 254 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 254 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0d0ff61-0758-4075-8a53-de63a17338bc")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dylan Components:ASMD-CWG7-NX7J2")
+		(at 205.74 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e700751a-ec3d-435d-b77b-a11176ada545")
+		(property "Reference" "D6"
+			(at 202.946 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ASMD-CWG7-NX7J2"
+			(at 210.312 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+			(at 205.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED WARM WHITE 3014 SMD"
+			(at 205.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c67beb8b-e44a-4269-b25f-a477e5e0afbc")
+		)
+		(pin "2"
+			(uuid "6e16f78e-b481-4177-a47d-b4d0c142393e")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 205.74 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e85c082a-28d4-4a5a-a462-0326568aaff6")
+		(property "Reference" "#PWR030"
+			(at 205.74 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 205.74 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 205.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3625aac6-9d25-4b87-8cca-6dbd9825d1fa")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 68.58 0)
 		(unit 1)
@@ -7245,6 +9046,244 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 199.39 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee0e9a0e-d4ba-4a94-a2ea-c6c4cb035d19")
+		(property "Reference" "#PWR029"
+			(at 199.39 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 199.39 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 199.39 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa5a7599-aab4-4442-8d65-f9ba2b8400b0")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dylan Components:ASMD-CWG7-NX7J2")
+		(at 269.24 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef6961d8-5291-4e9e-a249-e976b5c4890d")
+		(property "Reference" "D9"
+			(at 266.192 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ASMD-CWG7-NX7J2"
+			(at 266.446 102.362 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+			(at 269.24 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED WARM WHITE 3014 SMD"
+			(at 269.24 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a359c091-3b46-454e-9afd-985874fea5a7")
+		)
+		(pin "2"
+			(uuid "6c5e9eb9-e5c3-4d54-b1a1-cfe062595172")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 269.24 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f02e32e4-d651-441d-a4bd-0f260d97de21")
+		(property "Reference" "#PWR033"
+			(at 269.24 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 269.24 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 269.24 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1edb561-f670-40b1-9f04-763eb1286e10")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_US")
 		(at 69.85 119.38 0)
 		(unit 1)
@@ -7254,7 +9293,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f22ce735-52cc-4957-8549-bd53503159f0")
 		(property "Reference" "RV1"
 			(at 67.31 118.1099 0)
@@ -7279,7 +9317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_Dylan_IC:Bourns_TC33X-2-104E"
 			(at 69.85 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7335,6 +9373,27 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 69.85 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG PN" "TC33X-2-104E"
+			(at 66.04 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "Bourns"
 			(at 69.85 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7468,7 +9527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 123.19 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
