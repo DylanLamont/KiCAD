@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4567e93b-2c93-409a-899a-3f1be9a9ad70")
+		(uuid "aa3cb900-57c3-4f57-ade5-217bc594dffa")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9dfe8ab3-d62d-4356-a535-6afdd59bd9d2")
+		(uuid "a27d0f4e-fc60-4e33-a08b-db57f64d2ef7")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "33436b16-83e8-4199-8c94-5f01b55de3c5")
+		(uuid "90ea1f84-9886-4105-9539-2dc7a115d8f3")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a1895f9f-016e-4e8a-92fc-bc41625e0c3b")
+		(uuid "287fe3c2-808a-43d4-847b-458bb902a6cc")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3b94ce6b-3a37-4dd7-89ee-3c9169f7af47")
+		(uuid "e84202b9-9172-4331-85fa-5421657236e3")
 		(effects
 			(font
 				(size 1 1)
@@ -68,12 +68,12 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0 2)
+		(at 0 0)
 		(size 0.6 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(solder_mask_margin 0.1)
-		(uuid "f2edba1d-586a-4d5f-bcc0-e3bce213d7bd")
+		(uuid "7ead7fb9-9390-409d-b333-b2056c58ec11")
 	)
 	(embedded_fonts no)
 )
