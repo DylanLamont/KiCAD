@@ -4,10 +4,10 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -1.825 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "aa3cb900-57c3-4f57-ade5-217bc594dffa")
+		(uuid "76efc14e-b89d-4a61-acd4-b04e66cf4c81")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a27d0f4e-fc60-4e33-a08b-db57f64d2ef7")
+		(uuid "1fb6b8f7-cc11-4bc3-830e-236b4fd9c006")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "90ea1f84-9886-4105-9539-2dc7a115d8f3")
+		(uuid "308c8371-bfef-4d63-9ad7-e71d2256bd45")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "287fe3c2-808a-43d4-847b-458bb902a6cc")
+		(uuid "649af6e9-4991-427e-a67c-fac1355e3b8e")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e84202b9-9172-4331-85fa-5421657236e3")
+		(uuid "a027b3e3-72bb-43a0-92e8-e33fc749fe67")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +73,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(solder_mask_margin 0.1)
-		(uuid "7ead7fb9-9390-409d-b333-b2056c58ec11")
+		(uuid "ef9b7ece-e579-4676-bfc8-92da3c2f72af")
 	)
 	(embedded_fonts no)
 )
