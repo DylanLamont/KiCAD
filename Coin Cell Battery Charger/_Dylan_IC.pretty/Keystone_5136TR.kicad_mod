@@ -7,7 +7,7 @@
 		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f8d0c6f8-63e3-4d63-887d-9915b369629a")
+		(uuid "e55c836c-bb2f-4146-8b25-0443802225ff")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f9c01222-b823-4b19-ab8b-b7f084a04985")
+		(uuid "e59e19f5-5440-4f7b-988a-10f64529b543")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "836c169e-bf96-4e2b-a419-643450b0cc81")
+		(uuid "0cd00e30-c570-4aa9-9066-600d3b672085")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ff8aeddb-3104-453c-bed9-61d5b96bfb28")
+		(uuid "788394e6-d136-4894-8ed1-e36aaf0582e2")
 		(effects
 			(font
 				(size 1 1)
@@ -63,7 +63,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "019dd0ed-90c8-4d40-b92c-48d8e11fa11a")
+		(uuid "0121aa30-6f3e-4472-9ee6-9abb91a6dde2")
 	)
 	(fp_line
 		(start -1 -3.75)
@@ -73,7 +73,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "97d32879-37a0-4ea3-886d-bfb5f5be0484")
+		(uuid "45742ac3-9b00-4caf-a29f-6d89f238d6c6")
 	)
 	(fp_line
 		(start 1 3.75)
@@ -83,7 +83,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "2c0d1dba-8434-4a43-89c7-b70f31d61fb0")
+		(uuid "ea1925d1-56c6-4dbf-a0a5-72ae2d46cf20")
 	)
 	(fp_line
 		(start 3.75 1)
@@ -93,7 +93,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "92eea224-dcb8-4fc7-919f-a8bcc63708a4")
+		(uuid "f4ed96cb-d345-49b4-8aeb-d1b554e38077")
 	)
 	(fp_circle
 		(center 0 0)
@@ -104,7 +104,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "3975d90c-ad73-4c7b-bbac-c506945cf862")
+		(uuid "4ed676f6-19a3-43b7-84c1-d90b4a891f1e")
 	)
 	(fp_rect
 		(start -3.75 -3.75)
@@ -115,13 +115,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "8719d81e-e30b-4d75-b1d1-24433954c60e")
+		(uuid "c6dcb9b7-c915-46a9-b41a-6891f9d74234")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f29416ce-b6f8-469b-b7a5-4f27d5c80d45")
+		(uuid "a755b543-62dc-4816-8e0f-fb919a192a7c")
 		(effects
 			(font
 				(size 1 1)
@@ -132,32 +132,32 @@
 	(pad "1" smd circle
 		(at 0 0)
 		(size 3 3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "fd548913-8377-4450-9332-61882148e80b")
+		(layers "F.Cu" "F.Mask")
+		(uuid "a2130347-7d39-46e2-9f73-25620e055e43")
 	)
 	(pad "2" smd circle
 		(at -2.83 -2.83)
 		(size 3 3)
 		(layers "F.Cu" "F.Mask")
-		(uuid "733ca05c-2c1a-4b1e-a5e1-fd747afb2d33")
+		(uuid "594c772d-3a85-4d8e-bb21-1ecb07a83399")
 	)
 	(pad "2" smd circle
 		(at -2.83 2.83)
 		(size 3 3)
 		(layers "F.Cu" "F.Mask")
-		(uuid "97d0bcba-1cc1-48ab-9b58-500252a0ed13")
+		(uuid "5f197cde-703f-4cf2-80f2-6f19914f3260")
 	)
 	(pad "2" smd circle
 		(at 2.83 -2.83)
 		(size 3 3)
 		(layers "F.Cu" "F.Mask")
-		(uuid "4e328117-6ed2-4650-8197-db6564afe8a5")
+		(uuid "d7db2670-79d3-4b84-bcdd-92bfae9a713d")
 	)
 	(pad "2" smd circle
 		(at 2.83 2.83)
 		(size 3 3)
 		(layers "F.Cu" "F.Mask")
-		(uuid "7fb55510-d599-45a2-a346-6d49e90f005a")
+		(uuid "2a96ba07-14c2-4531-9bbf-c2a8a62a7f47")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/dylan/Downloads/5136TR/5136TR.STEP"

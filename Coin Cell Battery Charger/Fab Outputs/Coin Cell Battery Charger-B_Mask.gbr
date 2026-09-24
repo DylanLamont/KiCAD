@@ -1,0 +1,76 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.5*%
+%TF.CreationDate,2026-09-24T00:34:11-07:00*%
+%TF.ProjectId,Coin Cell Battery Charger,436f696e-2043-4656-9c6c-204261747465,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.5) date 2026-09-24 00:34:11*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%ADD10C,3.200000*%
+%ADD11C,0.800000*%
+%ADD12RoundRect,0.135000X-0.519723X0.074246X0.074246X-0.519723X0.519723X-0.074246X-0.074246X0.519723X0*%
+%ADD13RoundRect,0.135000X-0.837922X0.392444X0.392444X-0.837922X0.837922X-0.392444X-0.392444X0.837922X0*%
+%ADD14RoundRect,0.135000X0.074246X0.519723X-0.519723X-0.074246X-0.074246X-0.519723X0.519723X0.074246X0*%
+%ADD15RoundRect,0.135000X0.392444X0.837922X-0.837922X-0.392444X-0.392444X-0.837922X0.837922X0.392444X0*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H2*%
+X173444200Y-94412000D03*
+%TD*%
+D11*
+%TO.C,J4*%
+X129575000Y-115777019D03*
+X124925000Y-107722981D03*
+%TD*%
+D10*
+%TO.C,H1*%
+X127394000Y-88773200D03*
+%TD*%
+D12*
+%TO.C,D8*%
+X130201000Y-119799000D03*
+D13*
+X131572787Y-121170787D03*
+%TD*%
+D14*
+%TO.C,D5*%
+X169799000Y-119799000D03*
+D15*
+X168427213Y-121170787D03*
+%TD*%
+D14*
+%TO.C,D9*%
+X130201000Y-80201000D03*
+D15*
+X128829213Y-81572787D03*
+%TD*%
+D12*
+%TO.C,D4*%
+X169799000Y-80201000D03*
+D13*
+X171170787Y-81572787D03*
+%TD*%
+M02*

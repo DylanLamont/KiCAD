@@ -7,7 +7,7 @@
 		(at 0.75 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "e0387965-b090-4f06-9f4e-88e09925e713")
+		(uuid "7f8cfc50-66bb-4328-8293-f724581e8287")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7e9a8ffc-50d3-4553-865f-276378781247")
+		(uuid "5a77c109-251f-48d4-9796-546c69f681ec")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9c47d8ef-6cef-4adb-bae1-6826d155a2c6")
+		(uuid "db6ee74f-d33f-450b-b1f1-69288d80babd")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "336086de-14b5-472e-a728-74bc7e7ff507")
+		(uuid "bf7a4a0e-7af8-413d-8da7-35159405379f")
 		(effects
 			(font
 				(size 1 1)
@@ -63,7 +63,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ba7ac941-9436-4e85-9cdc-39284b6397e7")
+		(uuid "d3f784a4-e1b7-469b-acde-e5d495e770ab")
 	)
 	(fp_line
 		(start -4.2 4.11)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "18652f06-1788-42b7-84bb-478e8d8757df")
+		(uuid "bc6b0743-8706-44e6-85cf-24a24d31d4b1")
 	)
 	(fp_line
 		(start -3.7 0)
@@ -83,7 +83,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "da9a369f-34a4-4f1d-b35d-c184aaab2a04")
+		(uuid "5144fe70-143b-40c4-a608-e9cd203419e1")
 	)
 	(fp_line
 		(start 3.7 0)
@@ -93,7 +93,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "143f84c1-50ad-425e-91b0-ee39697ed759")
+		(uuid "7a21eee1-ca1b-4bea-9d63-91dd785f91e6")
 	)
 	(fp_line
 		(start 4.2 0)
@@ -103,7 +103,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "947779c9-34ea-4478-889a-cd56bef06ef8")
+		(uuid "7e577be7-0c8e-484c-b397-97cf257bed4d")
 	)
 	(fp_rect
 		(start -5 -1)
@@ -114,7 +114,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b671952c-559e-4cfb-9ede-0d874c0e2f8b")
+		(uuid "a3a02bba-63da-404d-a765-35c6a3748e46")
 	)
 	(fp_rect
 		(start -4 0)
@@ -125,13 +125,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "48064287-7993-435c-8792-87e734bab6c2")
+		(uuid "82934c97-9ca6-4cda-8f57-be31f8f8983f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.225 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3d597e0e-5aba-4b13-804a-4c5334429ded")
+		(uuid "31c86c11-5de5-4b68-822a-822eab1c6c93")
 		(effects
 			(font
 				(size 1 1)
@@ -144,7 +144,7 @@
 		(size 0.45 1.38)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(solder_mask_margin 0.1)
+		(solder_mask_margin 0.05)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -156,14 +156,14 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "b807d3ed-19c4-4e37-8c82-d09cc8cb31b0")
+		(uuid "0eefc767-1622-4db8-b151-01e86741f382")
 	)
 	(pad "2" smd roundrect
 		(at -0.65 0)
 		(size 0.45 1.38)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(solder_mask_margin 0.1)
+		(solder_mask_margin 0.05)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -175,14 +175,14 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "69768bba-9a48-42c3-b638-2119bf04384c")
+		(uuid "10f7d080-158d-4276-9077-d770571a6609")
 	)
 	(pad "3" smd roundrect
 		(at 0 0)
 		(size 0.45 1.38)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(solder_mask_margin 0.1)
+		(solder_mask_margin 0.05)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -194,14 +194,14 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "dafc4cab-966f-4e3f-93ef-971072362d04")
+		(uuid "6eb58f2c-fc55-4911-98b1-c2c0cd49facf")
 	)
 	(pad "4" smd roundrect
 		(at 0.65 0)
 		(size 0.45 1.38)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(solder_mask_margin 0.1)
+		(solder_mask_margin 0.05)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -213,14 +213,14 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "610c93a8-f70e-40c3-829e-3987c96d89f5")
+		(uuid "5d55b055-4653-49fc-b492-443110410e46")
 	)
 	(pad "5" smd roundrect
 		(at 1.3 0)
 		(size 0.45 1.38)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(solder_mask_margin 0.1)
+		(solder_mask_margin 0.05)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -232,7 +232,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "1dd1840e-cdbe-4701-adeb-18f4ddbc8183")
+		(uuid "8b5681c1-99fe-4630-ba0b-0d834bbf3475")
 	)
 	(pad "SH" smd roundrect
 		(at -3.3 2.66)
@@ -251,7 +251,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "486fe3cd-1a75-4152-82c3-3f940ca703a2")
+		(uuid "5debdb5b-a5c7-448e-b304-952b4481cedb")
 	)
 	(pad "SH" smd roundrect
 		(at -2.48 0)
@@ -270,7 +270,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "cf2cf93b-a296-4a8f-91d4-ec59f27494e0")
+		(uuid "db9b12b9-d19a-4a1f-8960-d26318d81b0e")
 	)
 	(pad "SH" smd roundrect
 		(at -1.15 2.66)
@@ -289,7 +289,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "f5741ab1-6cec-4eda-9456-912d7242d95c")
+		(uuid "a83be5ae-6e34-41cd-87c5-5d985c70d79a")
 	)
 	(pad "SH" smd roundrect
 		(at 1.55 2.66)
@@ -308,7 +308,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "cd49feda-c97f-4bb8-b381-fe19e02ff836")
+		(uuid "6635cf6b-254f-4517-a40c-9017656b58cd")
 	)
 	(pad "SH" smd roundrect
 		(at 2.48 0)
@@ -327,7 +327,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "7151ddb2-e838-4e31-a507-51d1c3077f44")
+		(uuid "d609f85b-7d1c-4dad-bd84-8c94e325198d")
 	)
 	(pad "SH" smd roundrect
 		(at 3.3 2.66)
@@ -346,7 +346,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d0e0664d-b16e-4056-9e9b-0736de152c7a")
+		(uuid "207d9a5a-ffa5-4cb6-8c24-b0c68eadcb47")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/dylan/Downloads/473461001_stp/473461001.stp"
