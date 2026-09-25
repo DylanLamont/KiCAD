@@ -10,6 +10,129 @@
 		(rev "1")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3980,7 +4103,7 @@
 		)
 		(uuid "19852549-3245-4517-ab62-b624115afb31")
 	)
-	(text_box "M3 Mounting holes"
+	(text_box "M2 Mounting holes"
 		(exclude_from_sim no)
 		(at 73.66 173.99 0)
 		(size 13.97 8.0376)
@@ -4071,6 +4194,12 @@
 		(uuid "5594381a-bb8c-479c-bdc5-2f54ae0d57f9")
 	)
 	(junction
+		(at 111.76 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bd1751a-e677-418d-80ca-414fa2ad88ac")
+	)
+	(junction
 		(at 217.17 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4081,6 +4210,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66faa744-2f24-465f-9f91-daf60fd9668b")
+	)
+	(junction
+		(at 66.04 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e428dab-218c-49f2-9aad-da457729ecf8")
 	)
 	(junction
 		(at 207.01 36.83)
@@ -4113,16 +4248,34 @@
 		(uuid "973ac41a-4983-4522-974d-2d046efa6e7f")
 	)
 	(junction
+		(at 50.8 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a886ee41-8c89-454a-b46d-381929c5eed8")
+	)
+	(junction
 		(at 179.07 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5036426-0267-465d-beca-4aee3b3eb0e8")
 	)
 	(junction
+		(at 176.53 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc97de8c-ef73-469c-b618-e1bae4ba7d98")
+	)
+	(junction
 		(at 43.18 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cec7ab0b-f4d2-4e45-873f-f7e2e2990d4c")
+	)
+	(junction
+		(at 234.95 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e97601ee-26d3-4c63-91a2-d5901b5496da")
 	)
 	(junction
 		(at 128.27 53.34)
@@ -4220,13 +4373,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 53.34) (xy 54.61 53.34)
+			(xy 43.18 53.34) (xy 50.8 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a604d80-89c8-4f36-b34b-a7222ebf5155")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 54.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b4c0ff1-fa23-441b-866a-585e8e31a3e3")
 	)
 	(wire
 		(pts
@@ -4240,7 +4403,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 182.88 63.5)
+			(xy 171.45 63.5) (xy 176.53 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4277,6 +4440,16 @@
 			(type default)
 		)
 		(uuid "12ef1476-47b8-4f2d-8df5-71248cb3008b")
+	)
+	(wire
+		(pts
+			(xy 73.66 22.86) (xy 73.66 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1376fc53-6a27-403c-a8c0-2501afa01073")
 	)
 	(wire
 		(pts
@@ -4320,6 +4493,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 63.5) (xy 182.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244d6ce2-0562-4364-92ae-5e9a25e97e0d")
+	)
+	(wire
+		(pts
 			(xy 148.59 127) (xy 161.29 127)
 		)
 		(stroke
@@ -4360,7 +4543,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 137.16) (xy 161.29 137.16)
+			(xy 205.74 137.16) (xy 189.23 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4380,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 53.34) (xy 119.38 53.34)
+			(xy 106.68 53.34) (xy 111.76 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4520,7 +4703,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 104.14) (xy 69.85 104.14)
+			(xy 60.96 104.14) (xy 66.04 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4557,6 +4740,16 @@
 			(type default)
 		)
 		(uuid "669bf322-19f7-4775-a64d-0f5163a27f78")
+	)
+	(wire
+		(pts
+			(xy 181.61 137.16) (xy 161.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68eb93da-33a6-4ace-9014-ebdc517538cb")
 	)
 	(wire
 		(pts
@@ -4690,6 +4883,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 135.89) (xy 231.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863d00b0-621f-4cfa-a529-29f153d22c7c")
+	)
+	(wire
+		(pts
 			(xy 27.94 68.58) (xy 27.94 71.12)
 		)
 		(stroke
@@ -4700,13 +4903,23 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 135.89) (xy 231.14 135.89)
+			(xy 275.59 135.89) (xy 259.08 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8763f27a-dbc2-493e-99ae-a987d35ad7e7")
+	)
+	(wire
+		(pts
+			(xy 234.95 36.83) (xy 243.84 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d21d2f0-f2b9-4ae5-91cf-14873353970d")
 	)
 	(wire
 		(pts
@@ -4747,6 +4960,16 @@
 			(type default)
 		)
 		(uuid "91c50e8f-7adc-46da-8262-226cd9fe9e2a")
+	)
+	(wire
+		(pts
+			(xy 66.04 104.14) (xy 69.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95623c8f-d764-49fb-bd76-344957d0bf2b")
 	)
 	(wire
 		(pts
@@ -4810,6 +5033,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 53.34) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64522e2-f127-47cf-b7a8-c0a99058aa20")
+	)
+	(wire
+		(pts
 			(xy 128.27 60.96) (xy 128.27 66.04)
 		)
 		(stroke
@@ -4830,7 +5063,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 36.83) (xy 243.84 36.83)
+			(xy 228.6 36.83) (xy 234.95 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5723,6 +5956,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 255.27 135.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11886398-bf5f-4738-a87c-3cbab9e921a5")
+		(property "Reference" "R11"
+			(at 255.27 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1Ω"
+			(at 255.27 138.938 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 255.524 134.874 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 255.27 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88ea8407-a9dc-4d9c-8435-6c4287d553ef")
+		)
+		(pin "2"
+			(uuid "feaa5d49-5720-4620-9c3f-6ae581761fcb")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 217.17 39.37 270)
 		(mirror x)
@@ -6300,6 +6612,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32834ef1-64ef-4f92-a72b-39574265f5a8")
+		(property "Reference" "TP6"
+			(at 114.3 116.0779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.3 117.3479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "199391e0-e366-478f-b4dc-effc3eb011a2")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 54.61 62.23 90)
 		(unit 1)
@@ -6557,6 +6949,84 @@
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38999a83-56ef-4009-b508-e5c2cc2ea4a5")
+		(property "Reference" "#PWR042"
+			(at 73.66 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc8f685d-3374-4d90-a577-e687504778b9")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6924,6 +7394,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 176.53 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a3017d6-3a51-4911-ad0c-df3daf3d5a58")
+		(property "Reference" "TP4"
+			(at 179.07 60.1979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 179.07 61.4679 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 181.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09a801aa-b56d-440b-aaf9-864d44bc839b")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 153.67 132.08 0)
 		(unit 1)
@@ -7074,6 +7624,86 @@
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 234.95 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4faf8152-c59e-4357-9b79-d07f6f13ff08")
+		(property "Reference" "TP3"
+			(at 237.49 33.5279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 237.49 34.7979 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 240.03 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 234.95 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3461d6f2-4818-4006-a8d8-7560abfa6aec")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -7867,82 +8497,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 86.36 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74d43ec3-ed41-43f9-bfc1-8ad1e6aded46")
-		(property "Reference" "H2"
-			(at 88.9 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 88.9 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 86.36 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 86.36 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Coin Cell Battery Charger"
-				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 97.79 74.93 0)
 		(unit 1)
@@ -8228,7 +8782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
 			(at 60.96 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -8914,6 +9468,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 185.42 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a74d009-6d0d-4c45-a8c0-dec35bad12c7")
+		(property "Reference" "R10"
+			(at 185.42 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1Ω"
+			(at 185.42 140.208 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.674 136.144 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 185.42 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c3d9ee0-a503-4170-8f51-455ed69db1e0")
+		)
+		(pin "2"
+			(uuid "9d8a8d16-b488-43ed-b997-4ae689fd6778")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 60.96 107.95 0)
 		(unit 1)
@@ -9153,6 +9786,86 @@
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a427969e-8f0b-41e1-bf24-22c2cac1c7e3")
+		(property "Reference" "TP1"
+			(at 53.34 50.0379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 51.3079 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 55.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bed65d2-bf1a-4f61-92c0-cfb368bac0dc")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9595,6 +10308,86 @@
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab73e030-a615-4106-a042-d321310a0c64")
+		(property "Reference" "TP2"
+			(at 114.3 50.0379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.3 51.3079 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 116.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdc862f6-fdd1-4ed1-a5c0-84673f868ab5")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10315,6 +11108,86 @@
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c818102b-2521-4889-bbf0-fe7620b1056b")
+		(property "Reference" "TP5"
+			(at 68.58 100.8379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 102.1079 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 71.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9f33c35-e5b5-4043-a48a-25745ea75768")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -11373,6 +12246,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 91.44 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef43999e-6b56-4733-8abe-a3765de4ae85")
+		(property "Reference" "H2"
+			(at 93.98 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 93.98 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_ISO14580"
+			(at 91.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 91.44 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Dylan Components:ASMD-CWG7-NX7J2")
 		(at 269.24 114.3 90)
 		(unit 1)
@@ -11908,6 +12857,86 @@
 			(project "Coin Cell Battery Charger"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd487091-44e3-48b5-9abf-a8ea51f5f6b9")
+		(property "Reference" "TP7"
+			(at 76.2 17.0179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 76.2 18.2879 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 78.74 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eace23dc-0c62-447e-9478-ad632b04e5c3")
+		)
+		(instances
+			(project "Coin Cell Battery Charger"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "TP7")
 					(unit 1)
 				)
 			)

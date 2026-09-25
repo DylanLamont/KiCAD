@@ -539,7 +539,7 @@
       "netlist": "",
       "plot": "Fab Outputs/",
       "specctra_dsn": "",
-      "step": "Coin Cell Battery Charger.step",
+      "step": "Coin Cell Battery Charger_25SEP2026.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -686,7 +686,7 @@
         "uuid": "3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
       }
     ],
-    "used_designators": "R1-9,J1-4,D1-10,#PWR1-41,U1-6,SW1,C1-9,RV1,Q1-2,H1-2",
+    "used_designators": "R1-12,J1-4,D1-10,#PWR1-42,U1-6,SW1,C1-9,RV1,Q1-2,H1-2,TP1-7",
     "variants": []
   },
   "sheets": [
