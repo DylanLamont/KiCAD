@@ -133,6 +133,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2544,100 +2768,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Dylan Components:Solder_Pad_0.6mmx2mm"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "_Dylan_IC:Solder_Pad_0.6mmx2mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Solder_Pad_0.6mmx2mm_0_1"
-				(rectangle
-					(start 0 -2.54)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Solder_Pad_0.6mmx2mm_1_1"
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Dylan Components:TLV74010PDBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4103,6 +4233,27 @@
 		)
 		(uuid "19852549-3245-4517-ab62-b624115afb31")
 	)
+	(text_box "Battery Contacts 3032 battery\n"
+		(exclude_from_sim no)
+		(at 140.97 43.18 0)
+		(size 10.16 10.0822)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 246 255 28 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4c8703c7-f584-435c-8697-6584c99ebd1b")
+	)
 	(text_box "M2 Mounting holes"
 		(exclude_from_sim no)
 		(at 73.66 173.99 0)
@@ -4323,7 +4474,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 53.34) (xy 129.54 53.34)
+			(xy 128.27 53.34) (xy 138.43 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +5194,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 60.96) (xy 128.27 66.04)
+			(xy 138.43 60.96) (xy 138.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5110,16 +5261,6 @@
 			(type default)
 		)
 		(uuid "b065d3e5-a54b-485c-8281-270ba39e3dea")
-	)
-	(wire
-		(pts
-			(xy 129.54 60.96) (xy 128.27 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b316d28a-b03b-413c-8273-30080a25fb32")
 	)
 	(wire
 		(pts
@@ -5461,7 +5602,7 @@
 			(uuid "0ae4f1a0-a7fe-4713-8567-572cb2f7e841")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR08")
 					(unit 1)
@@ -5539,7 +5680,7 @@
 			(uuid "e0f3515f-db56-4ff7-bc57-865e489ec72a")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR039")
 					(unit 1)
@@ -5621,7 +5762,7 @@
 			(uuid "dbe095c2-4ab7-4e84-846b-901290d93e32")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C4")
 					(unit 1)
@@ -5713,7 +5854,7 @@
 			(uuid "40f158d6-877a-4190-9b58-7e5ecb92a603")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "U4")
 					(unit 1)
@@ -5791,7 +5932,7 @@
 			(uuid "4ae32108-45ae-49e2-847b-ab8dcf546433")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR024")
 					(unit 1)
@@ -5869,87 +6010,9 @@
 			(uuid "50a29772-063c-489e-a4fe-5c75498bfbe7")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Dylan Components:Solder_Pad_0.6mmx2mm")
-		(at 132.08 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10796212-c351-4737-98c8-5e339518abcb")
-		(property "Reference" "J3"
-			(at 143.51 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 132.08 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "_Dylan_IC:Solder_Pad_0.6mmx2mm"
-			(at 132.08 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4c3d503-9fbb-4825-b7ef-14f2f2525c31")
-		)
-		(instances
-			(project "Coin Cell Battery Charger"
-				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6026,7 +6089,7 @@
 			(uuid "feaa5d49-5720-4620-9c3f-6ae581761fcb")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R11")
 					(unit 1)
@@ -6131,7 +6194,7 @@
 			(uuid "1656e89c-1819-42a2-a0e0-6bd8147b3c09")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "Q2")
 					(unit 1)
@@ -6209,7 +6272,7 @@
 			(uuid "f7bffaa3-b806-464d-a073-2fc0d74ea6c1")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR014")
 					(unit 1)
@@ -6287,7 +6350,7 @@
 			(uuid "f4ab273f-2155-4c07-841a-89199e7cfdd5")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR012")
 					(unit 1)
@@ -6365,7 +6428,7 @@
 			(uuid "7acac83c-60fc-4464-83a6-9ac7e25a3e0b")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR035")
 					(unit 1)
@@ -6443,7 +6506,7 @@
 			(uuid "2789898c-608c-4e31-b2c1-e532860ddfa4")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR036")
 					(unit 1)
@@ -6525,7 +6588,7 @@
 			(uuid "9206967e-9049-458f-976e-09a9ba641ae2")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D3")
 					(unit 1)
@@ -6603,7 +6666,7 @@
 			(uuid "75b5619e-76de-472a-9be8-abaaa4b20329")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR017")
 					(unit 1)
@@ -6683,7 +6746,7 @@
 			(uuid "199391e0-e366-478f-b4dc-effc3eb011a2")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "TP6")
 					(unit 1)
@@ -6786,7 +6849,7 @@
 			(uuid "191260c9-01f3-451c-abcf-3bdd97846dbc")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D2")
 					(unit 1)
@@ -6864,7 +6927,7 @@
 			(uuid "0b4e16b5-e641-471d-995c-7471b709f32c")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR034")
 					(unit 1)
@@ -6946,7 +7009,7 @@
 			(uuid "b2bc94d9-d84d-4b90-ae1c-ac0dda16247c")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D7")
 					(unit 1)
@@ -7024,7 +7087,7 @@
 			(uuid "fc8f685d-3374-4d90-a577-e687504778b9")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR042")
 					(unit 1)
@@ -7102,7 +7165,7 @@
 			(uuid "988709e3-5574-4ec1-b4eb-a226dd7790c9")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR010")
 					(unit 1)
@@ -7215,7 +7278,7 @@
 			(uuid "59d9b199-19dc-4295-a41d-68dfd33c187a")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D1")
 					(unit 1)
@@ -7307,7 +7370,7 @@
 			(uuid "0c008833-33b7-40e9-86df-1a4bbadf8416")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "U3")
 					(unit 1)
@@ -7385,7 +7448,7 @@
 			(uuid "e2b5accd-2fff-4288-8954-3ce0b0f73046")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR023")
 					(unit 1)
@@ -7465,7 +7528,7 @@
 			(uuid "09a801aa-b56d-440b-aaf9-864d44bc839b")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "TP4")
 					(unit 1)
@@ -7543,7 +7606,7 @@
 			(uuid "83644e8b-c420-4369-b7df-92cc0f9ce049")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR015")
 					(unit 1)
@@ -7621,7 +7684,7 @@
 			(uuid "e35cea1c-10f0-4164-bef0-f83dd1689eca")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR028")
 					(unit 1)
@@ -7701,7 +7764,7 @@
 			(uuid "3461d6f2-4818-4006-a8d8-7560abfa6aec")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "TP3")
 					(unit 1)
@@ -7779,7 +7842,7 @@
 			(uuid "54921034-ec46-4e47-8202-54f6bc0e014c")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR022")
 					(unit 1)
@@ -7857,7 +7920,7 @@
 			(uuid "b382016b-e803-4898-98a9-40a8f19f43b1")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR013")
 					(unit 1)
@@ -7935,7 +7998,7 @@
 			(uuid "9bdec638-430d-4091-9a06-665b4662333e")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR020")
 					(unit 1)
@@ -8013,7 +8076,7 @@
 			(uuid "67100f29-6a57-4991-94cb-cb94a10be7ec")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR032")
 					(unit 1)
@@ -8091,7 +8154,7 @@
 			(uuid "c3506dd4-7640-48f7-bfe1-cf12ff816a8f")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR026")
 					(unit 1)
@@ -8169,7 +8232,7 @@
 			(uuid "d499fe92-82e1-4478-be45-1f63b2e8c734")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR03")
 					(unit 1)
@@ -8250,7 +8313,7 @@
 			(uuid "34c4e04f-abe7-44c7-afae-9fd27bfbb85c")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D10")
 					(unit 1)
@@ -8332,87 +8395,9 @@
 			(uuid "2b85d808-3626-4b53-b126-d11bcea92528")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Dylan Components:Solder_Pad_0.6mmx2mm")
-		(at 132.08 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71f6bf0e-3ee7-416c-a1b7-829e739500a3")
-		(property "Reference" "J2"
-			(at 143.51 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 132.08 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "_Dylan_IC:Solder_Pad_0.6mmx2mm"
-			(at 132.08 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "223ff712-443e-4762-a47f-7a4c3c6617f0")
-		)
-		(instances
-			(project "Coin Cell Battery Charger"
-				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8488,7 +8473,7 @@
 			(uuid "a8edb469-7cf7-4909-a20b-db8223d8a6ec")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR018")
 					(unit 1)
@@ -8570,7 +8555,7 @@
 			(uuid "71d9c418-0e38-4a6d-98b9-479bc6864f9b")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R9")
 					(unit 1)
@@ -8662,7 +8647,7 @@
 			(uuid "6a85b2eb-98ff-4646-8831-e2417e14a7cc")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "U1")
 					(unit 1)
@@ -8740,7 +8725,7 @@
 			(uuid "bb0e3769-d6fd-4aa0-b243-a1035d3a299c")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR041")
 					(unit 1)
@@ -8816,7 +8801,7 @@
 			)
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "H1")
 					(unit 1)
@@ -8894,7 +8879,7 @@
 			(uuid "1f60b761-70ba-4db5-9018-60e217984b71")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR06")
 					(unit 1)
@@ -8983,7 +8968,7 @@
 			(uuid "b28c8188-bf7a-459a-b1bd-8baa416b5e99")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "U2")
 					(unit 1)
@@ -9061,7 +9046,7 @@
 			(uuid "83a79c3a-d5c2-4261-b663-518a76bd74cd")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR021")
 					(unit 1)
@@ -9143,7 +9128,7 @@
 			(uuid "af4ffc21-2564-460a-8c12-df66e530f93f")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D5")
 					(unit 1)
@@ -9221,7 +9206,7 @@
 			(uuid "f391a5cf-82f3-46bc-a5fb-18973101c1c7")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR040")
 					(unit 1)
@@ -9231,7 +9216,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 66.04 0)
+		(at 138.43 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9242,7 +9227,7 @@
 		(fields_autoplaced yes)
 		(uuid "960f2a0d-bcaa-4841-8981-09279a31c0f3")
 		(property "Reference" "#PWR05"
-			(at 128.27 72.39 0)
+			(at 138.43 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9253,7 +9238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 71.12 0)
+			(at 138.43 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9263,7 +9248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 66.04 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9274,7 +9259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 66.04 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9285,7 +9270,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 66.04 0)
+			(at 138.43 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9299,7 +9284,7 @@
 			(uuid "980bd521-6403-4078-855e-020e45ffe9b3")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR05")
 					(unit 1)
@@ -9377,7 +9362,7 @@
 			(uuid "572f8cba-ffc0-4e4d-9c31-ecfe1710322e")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR07")
 					(unit 1)
@@ -9459,7 +9444,7 @@
 			(uuid "c9278847-b79d-451a-9c0a-eba7c8e3f713")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C5")
 					(unit 1)
@@ -9538,7 +9523,7 @@
 			(uuid "9d8a8d16-b488-43ed-b997-4ae689fd6778")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R10")
 					(unit 1)
@@ -9619,7 +9604,7 @@
 			(uuid "73ddba20-711e-424e-983c-abc799820675")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C2")
 					(unit 1)
@@ -9701,7 +9686,7 @@
 			(uuid "b5f7ee36-ea0e-408c-a410-c5a799572666")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R2")
 					(unit 1)
@@ -9783,7 +9768,7 @@
 			(uuid "68a3f97b-0828-41a2-b16c-1db531b408ca")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R4")
 					(unit 1)
@@ -9863,7 +9848,7 @@
 			(uuid "4bed65d2-bf1a-4f61-92c0-cfb368bac0dc")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "TP1")
 					(unit 1)
@@ -9941,7 +9926,7 @@
 			(uuid "f711f4ab-5a34-41cb-a9cb-32a9eea6a446")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR011")
 					(unit 1)
@@ -10039,7 +10024,7 @@
 			(uuid "946c1d11-dc7e-4bc6-8d80-1e0def898848")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "U6")
 					(unit 1)
@@ -10131,7 +10116,7 @@
 			(uuid "21a24506-300c-4485-995f-91b578d10711")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "J4")
 					(unit 1)
@@ -10223,7 +10208,7 @@
 			(uuid "55420079-0ac8-4c4e-9de0-050737b82814")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "U5")
 					(unit 1)
@@ -10305,7 +10290,7 @@
 			(uuid "3b1343fd-e411-4747-bc7b-5a2f5b90a406")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D8")
 					(unit 1)
@@ -10385,7 +10370,7 @@
 			(uuid "fdc862f6-fdd1-4ed1-a5c0-84673f868ab5")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "TP2")
 					(unit 1)
@@ -10463,7 +10448,7 @@
 			(uuid "60b84aa7-5d60-4191-b0eb-1082f61edc3b")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR037")
 					(unit 1)
@@ -10543,7 +10528,7 @@
 			(uuid "4c699936-b9e2-4877-b1b0-ec86282b997b")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "SW1")
 					(unit 1)
@@ -10625,7 +10610,7 @@
 			(uuid "f4871947-ed07-48f5-af94-cc323aa28ac2")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R7")
 					(unit 1)
@@ -10703,7 +10688,7 @@
 			(uuid "9b4451d8-768a-4e4e-89b0-4ae1753540cf")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR019")
 					(unit 1)
@@ -10781,7 +10766,7 @@
 			(uuid "57e31e4b-666e-406e-8ca1-de771c38068e")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR016")
 					(unit 1)
@@ -10863,7 +10848,7 @@
 			(uuid "bcde7bef-0a5a-408b-a615-af823a58a13c")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R8")
 					(unit 1)
@@ -10945,7 +10930,7 @@
 			(uuid "38b27cf5-c49a-47e1-84cb-42594a3ea621")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C6")
 					(unit 1)
@@ -11023,7 +11008,7 @@
 			(uuid "e7d18ad5-6006-4e28-8354-88c73178da0b")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR09")
 					(unit 1)
@@ -11105,7 +11090,7 @@
 			(uuid "b2a391c6-4358-4747-a693-dc6c593e044f")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C8")
 					(unit 1)
@@ -11185,7 +11170,7 @@
 			(uuid "a9f33c35-e5b5-4043-a48a-25745ea75768")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "TP5")
 					(unit 1)
@@ -11267,7 +11252,7 @@
 			(uuid "a0e2b7a5-fcaa-45a6-abb3-0867d402dde4")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R3")
 					(unit 1)
@@ -11348,7 +11333,7 @@
 			(uuid "bf27d344-eca2-4616-9d02-13489df41d65")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C1")
 					(unit 1)
@@ -11439,7 +11424,7 @@
 			(uuid "d0928fa5-bebf-45e4-acfa-b51e08c8040a")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "J1")
 					(unit 1)
@@ -11520,7 +11505,7 @@
 			(uuid "7f1e4f0e-5cb4-4c51-82c5-3457a5c0d5b0")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C7")
 					(unit 1)
@@ -11602,7 +11587,7 @@
 			(uuid "6d640560-83f3-4f67-bafe-4968d20870f3")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C9")
 					(unit 1)
@@ -11684,7 +11669,7 @@
 			(uuid "aca11e08-680f-49f0-9271-cdddedceba7b")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R1")
 					(unit 1)
@@ -11762,7 +11747,7 @@
 			(uuid "fb7dee38-2cf2-4161-8d79-f8169ab70865")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR027")
 					(unit 1)
@@ -11844,7 +11829,7 @@
 			(uuid "944598f6-ffea-4359-bcbc-02308cf7d4d4")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R6")
 					(unit 1)
@@ -11922,7 +11907,7 @@
 			(uuid "d0d0ff61-0758-4075-8a53-de63a17338bc")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR031")
 					(unit 1)
@@ -12003,7 +11988,7 @@
 			(uuid "6e16f78e-b481-4177-a47d-b4d0c142393e")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D6")
 					(unit 1)
@@ -12081,7 +12066,7 @@
 			(uuid "3625aac6-9d25-4b87-8cca-6dbd9825d1fa")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR030")
 					(unit 1)
@@ -12159,7 +12144,7 @@
 			(uuid "9d153a23-3582-4c6e-9e68-401dd79c509d")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR04")
 					(unit 1)
@@ -12237,7 +12222,7 @@
 			(uuid "aa5a7599-aab4-4442-8d65-f9ba2b8400b0")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR029")
 					(unit 1)
@@ -12313,7 +12298,7 @@
 			)
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "H2")
 					(unit 1)
@@ -12395,7 +12380,7 @@
 			(uuid "6c5e9eb9-e5c3-4d54-b1a1-cfe062595172")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "D9")
 					(unit 1)
@@ -12473,7 +12458,7 @@
 			(uuid "f1edb561-f670-40b1-9f04-763eb1286e10")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR033")
 					(unit 1)
@@ -12612,7 +12597,7 @@
 			(uuid "f76d1ada-52c4-4c83-96a8-119b65d5f6d6")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "RV1")
 					(unit 1)
@@ -12694,7 +12679,7 @@
 			(uuid "a374efd4-d9fe-4437-b1e2-a0bc68f7f5ca")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "R5")
 					(unit 1)
@@ -12776,7 +12761,7 @@
 			(uuid "8a157c44-8222-4b0a-ac7f-39e243f4b71a")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "C3")
 					(unit 1)
@@ -12854,9 +12839,124 @@
 			(uuid "bbefcaf5-5280-47a9-84a3-392c2cab3efb")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 138.43 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7b7d83b-448d-47e0-8ace-baa59cf37879")
+		(property "Reference" "BT1"
+			(at 142.24 55.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 142.24 57.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 56.896 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 56.896 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 138.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 138.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 138.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 138.43 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ca10868-69a0-4ee7-bf2d-3dab17fd0f65")
+		)
+		(pin "2"
+			(uuid "2b672837-4836-4196-b8fd-e3f0e9bc2b60")
+		)
+		(instances
+			(project "Coin Cell Battery Charger__Solid Centre"
+				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -12934,7 +13034,7 @@
 			(uuid "eace23dc-0c62-447e-9478-ad632b04e5c3")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "TP7")
 					(unit 1)
@@ -13012,7 +13112,7 @@
 			(uuid "a7dce147-6e20-4e87-876d-681bc1435c83")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR01")
 					(unit 1)
@@ -13090,7 +13190,7 @@
 			(uuid "e7a83698-4a46-4bfc-a827-e793afc1876d")
 		)
 		(instances
-			(project "Coin Cell Battery Charger"
+			(project "Coin Cell Battery Charger__Solid Centre"
 				(path "/3326c7f5-8f59-48cc-b9a6-7f60a7ae9709"
 					(reference "#PWR02")
 					(unit 1)
