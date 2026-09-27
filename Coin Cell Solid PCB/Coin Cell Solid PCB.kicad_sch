@@ -7804,7 +7804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Dylan Library:Keystone_3047"
 			(at 135.89 64.516 90)
 			(hide yes)
 			(show_name no)
