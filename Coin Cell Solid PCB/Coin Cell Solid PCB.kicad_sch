@@ -5540,7 +5540,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+		(property "Footprint" "Dylan Library:BroadCom_ASMD-CWG7-NX7J2"
 			(at 267.97 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5776,7 +5776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:Molex_0473461001"
+		(property "Footprint" "Dylan Library:Molex_0473461001"
 			(at 21.59 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6751,7 +6751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+		(property "Footprint" "Dylan Library:BroadCom_ASMD-CWG7-NX7J2"
 			(at 204.47 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7640,7 +7640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:Keystone_5136TR"
+		(property "Footprint" "Dylan Library:Keystone_5136TR"
 			(at 167.64 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7722,7 +7722,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+		(property "Footprint" "Dylan Library:BroadCom_ASMD-CWG7-NX7J2"
 			(at 198.12 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8313,7 +8313,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+		(property "Footprint" "Dylan Library:BroadCom_ASMD-CWG7-NX7J2"
 			(at 260.35 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9782,7 +9782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+		(property "Footprint" "Dylan Library:BroadCom_ASMD-CWG7-NX7J2"
 			(at 182.88 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10181,7 +10181,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+		(property "Footprint" "Dylan Library:BroadCom_ASMD-CWG7-NX7J2"
 			(at 252.73 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10812,7 +10812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+		(property "Footprint" "Dylan Library:BroadCom_ASMD-CWG7-NX7J2"
 			(at 274.32 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11056,7 +11056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:BroadCom_ASMD-CWG7-NX7J2"
+		(property "Footprint" "Dylan Library:BroadCom_ASMD-CWG7-NX7J2"
 			(at 190.5 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11606,7 +11606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:SameSky_UJ2-MIBV-4-SMT-TR-67"
+		(property "Footprint" "Dylan Library:SameSky_UJ2-MIBV-4-SMT-TR-67"
 			(at 21.59 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12136,7 +12136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "_Dylan_IC:Bourns_TC33X-2-104E"
+		(property "Footprint" "Dylan Library:Bourns_TC33X-2-104E"
 			(at 68.58 127 0)
 			(hide yes)
 			(show_name no)
