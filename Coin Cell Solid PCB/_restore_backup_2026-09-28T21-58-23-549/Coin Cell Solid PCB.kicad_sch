@@ -9703,7 +9703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Dylan Library:Harwin_S2761-46R"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 77.47 27.94 0)
 			(hide yes)
 			(show_name no)
